@@ -1,21 +1,23 @@
 body {
-    background: rgb(59, 172, 42);
+    background: rgb(241, 172, 43);
     text-align: center;
 }
 
-/*arreglar formato con css card proyecto anterior*/
+
 .card {
     background-color: white;
     width: 100px;
     height: 160px;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 2px solid black;
     margin-top: 0px;
     margin-bottom: 0px;
     display: inline-block;
-    text-align:center;
+    position: relative;
+    text-align: center;
     line-height: 100px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
+    padding: 10px;
     margin: 5px;
 }
